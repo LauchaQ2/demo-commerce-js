@@ -1,0 +1,30 @@
+.list-cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-cart p{
+    font-size: 15px;
+}
+.substract-btn{
+    background-color: red!important;
+}
+.add-btn{
+    background-color: blue!important;
+}
+.substract-btn, .add-btn,.quantity-input{
+    font-size: 15px!important;
+    padding: 0!important;
+    width: 60px!important;
+    height: 100%!important;
+    min-width: 0px!important;
+    min-height: 0px!important;
+    color: black!important;
+    font-weight: bold;
+}
+.btn-group{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}

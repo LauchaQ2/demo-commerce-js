@@ -1,0 +1,18 @@
+.total-items{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.cart-icon{
+    position: relative;
+}
