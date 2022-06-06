@@ -4,6 +4,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import CartItems from '../CartItems/CartItems'
+import { Link } from 'react-router-dom';
 const style = {
     position: 'absolute',
     top: '50%',
@@ -33,6 +34,9 @@ export default function CartModal({ cart, open, emptyCart, handleClose }) {
                             return(<CartItems key={item.id} item={item}/>)
                         })}
                         <Button variant="contained" color="success" onClick={emptyCart}>VACIAR CARRITO</Button>
+                        <Link to={'/cart'}>
+                            <Button variant="contained" color="primary">IR A CARRITO</Button>
+                        </Link>
                     </Box>
                     </>
                 ) :
